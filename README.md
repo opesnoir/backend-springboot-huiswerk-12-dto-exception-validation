@@ -1,1 +1,1 @@
-# backend-springboot-huiswerk-12-dto-exception-validation
+# backend-springboot-lescode-12-dto-exception-validation
