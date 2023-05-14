@@ -17,4 +17,8 @@ public class TeacherDto {
 
     @Past
     public LocalDate dob;
+
+    @Size(max = 10000)
+    public int salary;
+
 }

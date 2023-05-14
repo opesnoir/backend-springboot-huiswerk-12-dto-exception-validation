@@ -20,17 +20,20 @@ public class Teacher {
     private String firstName;
     private String lastName;
     private LocalDate dob;
+    private int salary;
+
 
     //constructors toevoegen
     public Teacher(){
 
     }
 
-    public Teacher(Long id, String firstName, String lastName, LocalDate dob) {
+    public Teacher(Long id, String firstName, String lastName, LocalDate dob, int salary) {
         this.id = id;
         this.firstName = firstName;
         this.lastName = lastName;
         this.dob = dob;
+        this.salary = salary;
     }
 
     //getters en setters toevoegen
@@ -64,5 +67,13 @@ public class Teacher {
 
     public void setDob(LocalDate dob) {
         this.dob = dob;
+    }
+
+    public int getSalary() {
+        return salary;
+    }
+
+    public void setSalary(int salary) {
+        this.salary = salary;
     }
 }
